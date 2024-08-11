@@ -8,11 +8,9 @@ class BankDeposit{
     float interestRate;
     float returnValue;
     public: 
-        BankDeposit(){}
+        BankDeposit(){} //This line should be there or else we can't create an empty object in the main part
         BankDeposit(int p,int y, int r){}
         BankDeposit(int p,int y, float r){}
-
-
 
 };
 int main(){
